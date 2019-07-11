@@ -4,8 +4,8 @@
 const chai = require('chai')
 chai.use(require('dirty-chai'))
 const expect = chai.expect
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
 const waterfall = require('async/waterfall')
 const WS = require('libp2p-websockets')
 const defaultsDeep = require('@nodeutils/defaults-deep')

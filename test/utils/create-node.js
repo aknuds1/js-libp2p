@@ -3,8 +3,8 @@
 
 const chai = require('chai')
 chai.use(require('dirty-chai'))
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
 const waterfall = require('async/waterfall')
 const Node = require('./bundle-nodejs')
 

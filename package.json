@@ -1,8 +1,8 @@
 {
-  "name": "libp2p",
-  "version": "0.25.4",
+  "name": "@arve.knudsen/libp2p",
+  "version": "0.25.5",
   "description": "JavaScript implementation of libp2p, a modular peer to peer network stack",
-  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
+  "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "main": "src/index.js",
   "files": [
     "dist",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/libp2p/js-libp2p.git"
+    "url": "https://github.com/aknuds1/js-libp2p.git"
   },
   "keywords": [
     "libp2p",
@@ -31,7 +31,7 @@
     "IPFS"
   ],
   "bugs": {
-    "url": "https://github.com/libp2p/js-libp2p/issues"
+    "url": "https://github.com/aknuds1/js-libp2p/issues"
   },
   "homepage": "https://libp2p.io",
   "license": "MIT",
@@ -50,14 +50,14 @@
     "libp2p-connection-manager": "^0.1.0",
     "libp2p-floodsub": "^0.16.1",
     "libp2p-ping": "^0.8.5",
-    "libp2p-switch": "^0.42.12",
+    "@arve.knudsen/libp2p-switch": "^0.42.13",
     "libp2p-websockets": "^0.12.2",
     "mafmt": "^6.0.7",
     "multiaddr": "^6.1.0",
     "once": "^1.4.0",
     "peer-book": "^0.9.1",
-    "peer-id": "^0.12.2",
-    "peer-info": "^0.15.1",
+    "@arve.knudsen/peer-id": "^0.13.1",
+    "@arve.knudsen/peer-info": "^0.15.2",
     "superstruct": "^0.6.0"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@
 
 const libp2p = require('../../')
 const TCP = require('libp2p-tcp')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const waterfall = require('async/waterfall')
 const parallel = require('async/parallel')
 const pull = require('pull-stream')

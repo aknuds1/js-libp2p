@@ -9,7 +9,7 @@ const createNode = require('./utils/create-node')
 const sinon = require('sinon')
 const { createLibp2p } = require('../src')
 const WS = require('libp2p-websockets')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('@arve.knudsen/peer-info')
 
 describe('libp2p creation', () => {
   afterEach(() => {

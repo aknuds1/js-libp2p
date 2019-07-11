@@ -1,7 +1,7 @@
 'use strict'
 
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const nextTick = require('async/nextTick')
 const peerJSON = require('../fixtures/test-peer')
 const multiaddr = require('multiaddr')
