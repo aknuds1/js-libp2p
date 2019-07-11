@@ -7,7 +7,7 @@ const WebSocketStar = require('libp2p-websocket-star')
 const WebRTCStar = require('libp2p-webrtc-star')
 const MPLEX = require('libp2p-mplex')
 const SECIO = require('libp2p-secio')
-const KadDHT = require('libp2p-kad-dht')
+const KadDHT = require('@arve.knudsen/libp2p-kad-dht')
 const DelegatedPeerRouter = require('libp2p-delegated-peer-routing')
 const DelegatedContentRouter = require('libp2p-delegated-content-routing')
 

@@ -12,7 +12,7 @@ const series = require('async/series')
 const parallel = require('async/parallel')
 const nextTick = require('async/nextTick')
 
-const PeerBook = require('peer-book')
+const PeerBook = require('@arve.knudsen/peer-book')
 const PeerInfo = require('@arve.knudsen/peer-info')
 const Switch = require('@arve.knudsen/libp2p-switch')
 const Ping = require('libp2p-ping')

@@ -9,7 +9,7 @@ const PeerId = require('@arve.knudsen/peer-id')
 const waterfall = require('async/waterfall')
 const WS = require('libp2p-websockets')
 const defaultsDeep = require('@nodeutils/defaults-deep')
-const DHT = require('libp2p-kad-dht')
+const DHT = require('@arve.knudsen/libp2p-kad-dht')
 
 const Libp2p = require('../src')
 

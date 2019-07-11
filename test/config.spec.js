@@ -8,10 +8,10 @@ const PeerInfo = require('@arve.knudsen/peer-info')
 const PeerId = require('@arve.knudsen/peer-id')
 const waterfall = require('async/waterfall')
 const WS = require('libp2p-websockets')
-const Bootstrap = require('libp2p-bootstrap')
+const Bootstrap = require('@arve.knudsen/libp2p-bootstrap')
 const DelegatedPeerRouter = require('libp2p-delegated-peer-routing')
 const DelegatedContentRouter = require('libp2p-delegated-content-routing')
-const DHT = require('libp2p-kad-dht')
+const DHT = require('@arve.knudsen/libp2p-kad-dht')
 
 const validateConfig = require('../src/config').validate
 
